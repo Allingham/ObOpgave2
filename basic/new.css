@@ -1,0 +1,56 @@
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+#RH{
+    text-align: right;
+}
+  
+.CourseHeader{
+    display: flex;
+    text-align: left;
+    
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.ListHead{
+    text-align: center;
+}
+
+hr{
+    width: 100%;
+}
+
+body{
+    width: 100%;
+    padding: 25px;
+}
+
+.HTitle{
+    vertical-align: center;
+    color: #272B30;
+}
+
+@media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      align-self: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+
+    #RH{
+        text-align: center;
+    }
+
+    ul{
+        text-align: left;
+    }
+}
